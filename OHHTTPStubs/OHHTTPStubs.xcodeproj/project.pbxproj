@@ -28,6 +28,10 @@
 		099C735716903B9800239880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099C735616903B9800239880 /* UIKit.framework */; };
 		09BEF7C917DFF68100B096F3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BEF7C817DFF68100B096F3 /* Security.framework */; };
 		09D888241808BDA6002D3697 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D888231808BDA6002D3697 /* OHHTTPStubs+NSURLSessionConfiguration.m */; };
+		27B415CC18595BD600BE155B /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 09793597161B62C0006DB5D5 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B415CD18595C0C00BE155B /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 09793599161B62C0006DB5D5 /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B415CE18595C1400BE155B /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 099B95D917D3E38E0023F9BD /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B415CF18595C2200BE155B /* OHHTTPStubsResponse+HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 099B95DD17D3E3D00023F9BD /* OHHTTPStubsResponse+HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27CE42E6184CD21D00484665 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CE42E5184CD21D00484665 /* Cocoa.framework */; };
 		27CE42FC184CD21D00484665 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CE42E5184CD21D00484665 /* Cocoa.framework */; };
 		27CE42FF184CD21D00484665 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CE42E4184CD21D00484665 /* OHHTTPStubs.framework */; };
@@ -357,6 +361,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B415CE18595C1400BE155B /* OHHTTPStubsResponse+JSON.h in Headers */,
+				27B415CD18595C0C00BE155B /* OHHTTPStubsResponse.h in Headers */,
+				27B415CF18595C2200BE155B /* OHHTTPStubsResponse+HTTPMessage.h in Headers */,
+				27B415CC18595BD600BE155B /* OHHTTPStubs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
